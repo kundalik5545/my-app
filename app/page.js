@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import Image from "next/image";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 
@@ -59,8 +58,6 @@ const sections = [
 ];
 
 const HomePage = () => {
-  const websiteName = "My App";
-
   return (
     <div className="max-w-6xl">
       <HeroSection />

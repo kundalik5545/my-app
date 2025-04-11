@@ -1,10 +1,9 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { websiteName } from "@/data/BasicSettings";
 
 const HeroSection = () => {
-  const websiteName = "My App";
-
   const allUrls = {
     youtubeURL: "https://www.youtube.com/@qaplayground",
     blogLink: "https://random-coders.vercel.app",

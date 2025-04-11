@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import { websiteName } from "@/data/BasicSettings";
 
 const Footer = () => {
-  const websiteName = "My App";
   return (
     <div className="flex flex-col items-center container mx-auto">
       {/* Info sect */}

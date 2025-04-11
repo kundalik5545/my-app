@@ -24,14 +24,13 @@ import {
 } from "@/components/ui/sidebar";
 import Link from "next/link";
 import Image from "next/image";
+import { websiteName } from "@/data/BasicSettings";
 
 // Menu items.
 const items = [
   { title: "Home", url: "/", icon: Home },
   { title: "Calendar", url: "/calendar", icon: Calendar },
 ];
-
-const websiteName = "My App";
 
 export function AppSidebar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
